@@ -23,6 +23,8 @@
     _allowNextAction = YES;
     
     self.delegate = self;
+    
+    self.interactivePopGestureRecognizer.enabled = NO;
 }
 
 - (void)setAllowNextAction:(BOOL)allowNextPop
